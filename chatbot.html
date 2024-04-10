@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chatbot Example</title>
+  <link rel="stylesheet" href="chatbot.css">
+</head>
+<body>
+  <div class="chatbot_icon">
+    <img src="./assets/robo1.png" height="70%" width="70%">
+  </div>
+  <div class="chat-container">
+    <div class="chat-header">
+      <h3>Chatify Bot</h3>
+      <img src="./assets/close.png" >
+    </div>
+    <div class="chat-body">
+      <div class="chat-messages"></div>
+      <div class="input-container">
+        <!-- <input type="text" placeholder="Type your message..." /> -->
+        <textarea id="chat-input" rows="1" placeholder="Type your message..."></textarea>
+        <button class="send-message-icon"><img src="./assets/send-message.png" ></button>
+      </div>
+    </div>
+  </div>
+  <script src="chatbot.js"></script>
+</body>
+</html>
