@@ -87,7 +87,7 @@ function displayMessage(message, sender) {
   messageDiv.classList.add("messageBoxContainer")
 
   const senderClass = sender === 'user' ? 'sender_user' : 'sender_bot';
-  const sendericon = sender === 'user' ? '../assets/user.png' : '../assets/robot.png';
+  const sendericon = sender === 'user' ? './assets/user.png' : './assets/robot.png';
 
   messageDiv.innerHTML = `
 
